@@ -1,0 +1,918 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/">
+    <bib:Article rdf:about="https://doi.org/10.1021/acsmaterialslett.1c00850">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>4</prism:volume>
+                <dc:title>ACS Materials Letters</dc:title>
+                <dc:identifier>DOI 10.1021/acsmaterialslett.1c00850</dc:identifier>
+                <prism:number>5</prism:number>
+                <dcterms:alternative>ACS Materials Lett.</dcterms:alternative>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Xiaoyi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Beysens</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bourouina</foaf:surname>
+                        <foaf:givenName>Tarik</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_9"/>
+        <link:link rdf:resource="#item_10"/>
+        <dc:title>Water Harvesting from Air: Current Passive Approaches and Outlook</dc:title>
+        <dcterms:abstract>In the context of global water scarcity, water vapor available in air is a non-negligible supplementary fresh water resource. Current and potential energetically passive procedures for improving atmospheric water harvesting (AWH) capabilities involve different strategies and dedicated materials, which are reviewed in this paper, from the perspective of morphology and wettability optimization, substrate cooling, and sorbent assistance. The advantages and limitations of different AWH strategies are respectively discussed, as well as their water harvesting performance. The various applications based on advanced AWH technologies are also demonstrated. A prospective concept of multifunctional water vapor harvesting panel based on promising cooling material, inspired by silicon-based solar energy panels, is finally proposed with a brief outlook of its advantages and challenges.</dcterms:abstract>
+        <dc:date>2022-05-02</dc:date>
+        <z:shortTitle>Water Harvesting from Air</z:shortTitle>
+        <z:libraryCatalog>ACS Publications</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://doi.org/10.1021/acsmaterialslett.1c00850</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 21:54:24</dcterms:dateSubmitted>
+        <dc:description>Publisher: American Chemical Society</dc:description>
+        <bib:pages>1003-1024</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_9">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/9/Liu et al. - 2022 - Water Harvesting from Air Current Passive Approac.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.acs.org/doi/pdf/10.1021/acsmaterialslett.1c00850</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 21:54:25</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_10">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/10/acsmaterialslett.html"/>
+        <dc:title>https://pubs.acs.org/doi/full/10.1021/acsmaterialslett.1c00850</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pubs.acs.org/doi/full/10.1021/acsmaterialslett.1c00850</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 21:54:44</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.nature.com/articles/nature13883">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0028-0836,%201476-4687"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Raman</foaf:surname>
+                        <foaf:givenName>Aaswath P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Anoma</foaf:surname>
+                        <foaf:givenName>Marc Abou</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhu</foaf:surname>
+                        <foaf:givenName>Linxiao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rephaeli</foaf:surname>
+                        <foaf:givenName>Eden</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fan</foaf:surname>
+                        <foaf:givenName>Shanhui</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_23"/>
+        <dc:title>Passive radiative cooling below ambient air temperature under direct sunlight</dc:title>
+        <dc:date>11/2014</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.nature.com/articles/nature13883</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 21:57:39</dcterms:dateSubmitted>
+        <bib:pages>540-544</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0028-0836,%201476-4687">
+        <prism:volume>515</prism:volume>
+        <dc:title>Nature</dc:title>
+        <dc:identifier>DOI 10.1038/nature13883</dc:identifier>
+        <prism:number>7528</prism:number>
+        <dcterms:alternative>Nature</dcterms:alternative>
+        <dc:identifier>ISSN 0028-0836, 1476-4687</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_23">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Link To Paper In SciHub</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://sci-hub.se/10.1038/nature13883</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 21:58:09</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0301479717300208">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:03014797"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Londoño</foaf:surname>
+                        <foaf:givenName>Ana C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Williams</foaf:surname>
+                        <foaf:givenName>Patrick Ryan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hart</foaf:surname>
+                        <foaf:givenName>Megan L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_25"/>
+        <dc:title>A change in landscape: Lessons learned from abandonment of ancient Wari agricultural terraces in Southern Peru</dc:title>
+        <dc:date>11/2017</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>A change in landscape</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0301479717300208</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 21:58:25</dcterms:dateSubmitted>
+        <bib:pages>532-542</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:03014797">
+        <prism:volume>202</prism:volume>
+        <dc:title>Journal of Environmental Management</dc:title>
+        <dc:identifier>DOI 10.1016/j.jenvman.2017.01.012</dc:identifier>
+        <dcterms:alternative>Journal of Environmental Management</dcterms:alternative>
+        <dc:identifier>ISSN 03014797</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_25">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>https://sci-hub.se/10.1016/j.jenvman.2017.01.012</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://sci-hub.se/10.1016/j.jenvman.2017.01.012</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 21:58:44</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.nature.com/articles/s41893-020-0566-x">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2398-9629"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Singh</foaf:surname>
+                        <foaf:givenName>Subhash C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>ElKabbash</foaf:surname>
+                        <foaf:givenName>Mohamed</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Zilong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Xiaohan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Regmi</foaf:surname>
+                        <foaf:givenName>Bhabesh</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Madsen</foaf:surname>
+                        <foaf:givenName>Matthew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jalil</foaf:surname>
+                        <foaf:givenName>Sohail A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhan</foaf:surname>
+                        <foaf:givenName>Zhibing</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Jihua</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Guo</foaf:surname>
+                        <foaf:givenName>Chunlei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_27"/>
+        <link:link rdf:resource="#item_28"/>
+        <dc:title>Solar-trackable super-wicking black metal panel for photothermal water sanitation</dc:title>
+        <dcterms:abstract>Abstract
+            Solar-based water sanitation is an environmentally friendly process for obtaining clean water that requires efficient light-to-heat-to-vapour generation. Solar-driven interfacial evaporation has potential, but the inability to control interfacial evaporators for solar tracking limits efficiency at large solar zenith angles and when using optical concentration. Furthermore, clogging affects the efficiency of the device. Here, we create a super-wicking and super-light-absorbing (SWSA) aluminium surface for efficient solar-based water sanitation. The measured evaporation rate exceeds that of an ideal device operating at 100% efficiency, which we hypothesize resulted from a reduced enthalpy of vaporization within the microcapillaries. Limited solar absorber–water contact for water transport minimizes heat losses to bulk water and maximizes heat localization at the SWSA surface. The device can be mounted at any angle on a floating platform to optimize incident solar irradiance and can readily be integrated with commercial solar-thermal systems. With a design that is analogous to bifacial photovoltaic solar panels, we show a 150% increase in efficiency compared with a single-sided SWSA. Given the open capillary channels, the device surface can be easily cleaned and reused. Using the SWSA surface to purify contaminated water, we show a decrease in the level of contaminants to well below the WHO and EPA standards for drinkable water.</dcterms:abstract>
+        <dc:date>11/2020</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.nature.com/articles/s41893-020-0566-x</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 21:59:25</dcterms:dateSubmitted>
+        <bib:pages>938-946</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2398-9629">
+        <prism:volume>3</prism:volume>
+        <dc:title>Nature Sustainability</dc:title>
+        <dc:identifier>DOI 10.1038/s41893-020-0566-x</dc:identifier>
+        <prism:number>11</prism:number>
+        <dcterms:alternative>Nat Sustain</dcterms:alternative>
+        <dc:identifier>ISSN 2398-9629</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_27">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/27/Singh et al. - 2020 - Solar-trackable super-wicking black metal panel fo.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/s41893-020-0566-x.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 21:59:27</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_28">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>https://sci-hub.se/10.1038/s41893-020-0566-x</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://sci-hub.se/10.1038/s41893-020-0566-x</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 21:59:45</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S254243511830326X">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:25424351"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tu</foaf:surname>
+                        <foaf:givenName>Yaodong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Ruzhu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenName>Yannan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Jiayun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_30"/>
+        <link:link rdf:resource="#item_31"/>
+        <dc:title>Progress and Expectation of Atmospheric Water Harvesting</dc:title>
+        <dc:date>08/2018</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S254243511830326X</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 21:59:58</dcterms:dateSubmitted>
+        <bib:pages>1452-1475</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:25424351">
+        <prism:volume>2</prism:volume>
+        <dc:title>Joule</dc:title>
+        <dc:identifier>DOI 10.1016/j.joule.2018.07.015</dc:identifier>
+        <prism:number>8</prism:number>
+        <dcterms:alternative>Joule</dcterms:alternative>
+        <dc:identifier>ISSN 25424351</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_30">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/30/Tu et al. - 2018 - Progress and Expectation of Atmospheric Water Harv.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.cell.com/article/S254243511830326X/pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 21:59:59</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_31">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>https://sci-hub.se/10.1016/j.joule.2018.07.015</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://sci-hub.se/10.1016/j.joule.2018.07.015</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:00:21</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ojs.library.queensu.ca/index.php/ijsle/article/view/3188">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1555-9033"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sharan</foaf:surname>
+                        <foaf:givenName>Girja</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_33"/>
+        <link:link rdf:resource="#item_34"/>
+        <dc:title>Harvesting Dew with Radiation Cooled Condensers to Supplement Drinking Water Supply in Semi-arid</dc:title>
+        <dcterms:abstract>This paper describes the development of dew harvest systems for use in semi-arid coastal region of north-west India, chronically short of drinking water. These were developed to ameliorate drinking water problem, especially of people living near the coast where groundwater is of poor quality and surface sources scarce.  Although dew is much smaller in magnitude (20-30 mm) than the rains (300 mm) it is a more reliable source. Dew occurs over a season of seven months (October to April), rain over four (June - September). Dew nights number ~ 100, rainy days 15-20. There is much greater year to year variation in rainfall than in the dew amount. A R&amp;D program of over four years led to development of three types of systems - condenser-on-roof (CoR), condenser-on-ground (CoG) and Roof-as-Condenser (RaC). The CoR, CoGs employ condenser made of plastic film insulated on the underside. CoRs are constructed over the roof of buildings, CoGs on open ground.  The RaCs use metal roof of buildings itself as condenser. The CoR and CoGs give higher output, require higher investment. The RaCs give lower output; require only a small investment in collection and storage.  Examples of working installation are presented.  Rain and dew seasons in the region are complementary. Although engineered specifically to harvest dew, these also harvest rain, providing varying amounts of potable water through the year. Benefits to the region, learning accrued and partnerships created in the course of work are also briefly discussed.</dcterms:abstract>
+        <dc:date>2011-05-08</dc:date>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ojs.library.queensu.ca/index.php/ijsle/article/view/3188</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:00:30</dcterms:dateSubmitted>
+        <bib:pages>130-150</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1555-9033">
+        <prism:volume>6</prism:volume>
+        <dc:title>International Journal for Service Learning in Engineering, Humanitarian Engineering and Social Entrepreneurship</dc:title>
+        <dc:identifier>DOI 10.24908/ijsle.v6i1.3188</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>IJSLE</dcterms:alternative>
+        <dc:identifier>ISSN 1555-9033</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_33">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/33/Sharan - 2011 - Harvesting Dew with Radiation Cooled Condensers to.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ojs.library.queensu.ca/index.php/ijsle/article/download/3188/3578</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:00:31</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_34">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>https://sci-hub.se/10.24908/ijsle.v6i1.3188</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://sci-hub.se/10.24908/ijsle.v6i1.3188</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:00:40</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Article rdf:about="https://doi.org/10.1093/ijlct/ctz072">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1748-1317"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jarimi</foaf:surname>
+                        <foaf:givenName>Hasila</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Powell</foaf:surname>
+                        <foaf:givenName>Richard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Riffat</foaf:surname>
+                        <foaf:givenName>Saffa</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_36"/>
+        <link:link rdf:resource="#item_37"/>
+        <dc:title>Review of sustainable methods for atmospheric water harvesting</dc:title>
+        <dcterms:abstract>The scope of this paper is to review different types of sustainable water harvesting methods from the atmospheric fogs and dew. In this paper, we report upon the water collection performance of various fog collectors around the world. We also review technical aspects of fog collector feasibility studies and the efficiency improvements. Modern fog harvesting innovations are often bioinspired technology. Fog harvesting technology is obviously limited by global fog occurrence. In contrast, dew water harvester is available everywhere but requires a cooled condensing surface. In this review, the dew water collection systems is divided into three categories: i) dew water harvesting using radiative cooling surface, ii) solar-regenerated desiccant system and iii) active condensation technology. The key target in all these approaches is the development of an atmospheric water collector that can produce water regardless of the humidity level, geographical location, low in cost and can be made using local materials.</dcterms:abstract>
+        <dc:date>2020-05-18</dc:date>
+        <z:libraryCatalog>Silverchair</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1093/ijlct/ctz072</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:02:23</dcterms:dateSubmitted>
+        <bib:pages>253-276</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1748-1317">
+        <prism:volume>15</prism:volume>
+        <dc:title>International Journal of Low-Carbon Technologies</dc:title>
+        <dc:identifier>DOI 10.1093/ijlct/ctz072</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>International Journal of Low-Carbon Technologies</dcterms:alternative>
+        <dc:identifier>ISSN 1748-1317</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_36">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/36/Jarimi et al. - 2020 - Review of sustainable methods for atmospheric wate.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academic.oup.com/ijlct/article-pdf/15/2/253/33201933/ctz072.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:02:28</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_37">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/37/5718410.html"/>
+        <dc:title>https://academic.oup.com/ijlct/article/15/2/253/5718410</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academic.oup.com/ijlct/article/15/2/253/5718410</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:02:38</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0960148106000462">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:09601481"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kabeel</foaf:surname>
+                        <foaf:givenName>A.E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_39"/>
+        <dc:title>Water production from air using multi-shelves solar glass pyramid system</dc:title>
+        <dc:date>1/2007</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0960148106000462</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:02:41</dcterms:dateSubmitted>
+        <bib:pages>157-172</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:09601481">
+        <prism:volume>32</prism:volume>
+        <dc:title>Renewable Energy</dc:title>
+        <dc:identifier>DOI 10.1016/j.renene.2006.01.015</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Renewable Energy</dcterms:alternative>
+        <dc:identifier>ISSN 09601481</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_39">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>https://sci-hub.se/10.1016/j.renene.2006.01.015</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://sci-hub.se/10.1016/j.renene.2006.01.015</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:02:52</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S0960148100001129">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>22</prism:volume>
+                <dc:title>Renewable Energy</dc:title>
+                <dc:identifier>DOI 10.1016/S0960-1481(00)00112-9</dc:identifier>
+                <prism:number>4</prism:number>
+                <dcterms:alternative>Renewable Energy</dcterms:alternative>
+                <dc:identifier>ISSN 09601481</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gad</foaf:surname>
+                        <foaf:givenName>H.E</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hamed</foaf:surname>
+                        <foaf:givenName>A.M</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>El-Sharkawy</foaf:surname>
+                        <foaf:givenName>I.I</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_41"/>
+        <dc:title>Application of a solar desiccant/collector system for water recovery from atmospheric air</dc:title>
+        <dc:date>4/2001</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S0960148100001129</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:03:02</dcterms:dateSubmitted>
+        <bib:pages>541-556</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_41">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>https://sci-hub.se/10.1016/s0960-1481(00)00112-9</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://sci-hub.se/10.1016/s0960-1481(00)00112-9</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:03:11</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Article rdf:about="https://iopscience.iop.org/article/10.1088/1748-3182/9/3/031002">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1748-3182,%201748-3190"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Malik</foaf:surname>
+                        <foaf:givenName>F T</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Clement</foaf:surname>
+                        <foaf:givenName>R M</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gethin</foaf:surname>
+                        <foaf:givenName>D T</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Krawszik</foaf:surname>
+                        <foaf:givenName>W</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Parker</foaf:surname>
+                        <foaf:givenName>A R</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_43"/>
+        <dc:title>Nature's moisture harvesters: a comparative review</dc:title>
+        <dc:date>2014-03-20</dc:date>
+        <z:shortTitle>Nature's moisture harvesters</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://iopscience.iop.org/article/10.1088/1748-3182/9/3/031002</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:03:19</dcterms:dateSubmitted>
+        <bib:pages>031002</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1748-3182,%201748-3190">
+        <prism:volume>9</prism:volume>
+        <dc:title>Bioinspiration &amp; Biomimetics</dc:title>
+        <dc:identifier>DOI 10.1088/1748-3182/9/3/031002</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Bioinspir. Biomim.</dcterms:alternative>
+        <dc:identifier>ISSN 1748-3182, 1748-3190</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_43">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>https://sci-hub.se/10.1088/1748-3182/9/3/031002</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://sci-hub.se/10.1088/1748-3182/9/3/031002</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:03:29</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Article rdf:about="https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0110">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1364-503X,%201471-2962"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Malik</foaf:surname>
+                        <foaf:givenName>F. T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Clement</foaf:surname>
+                        <foaf:givenName>R. M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gethin</foaf:surname>
+                        <foaf:givenName>D. T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kiernan</foaf:surname>
+                        <foaf:givenName>M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goral</foaf:surname>
+                        <foaf:givenName>T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Griffiths</foaf:surname>
+                        <foaf:givenName>P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Beynon</foaf:surname>
+                        <foaf:givenName>D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Parker</foaf:surname>
+                        <foaf:givenName>A. R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_45"/>
+        <link:link rdf:resource="#item_46"/>
+        <dc:title>Hierarchical structures of cactus spines that aid in the directional movement of dew droplets</dc:title>
+        <dcterms:abstract>Three species of cactus whose spines act as dew harvesters were chosen for this study:
+              Copiapoa cinerea
+              var.
+              haseltoniana
+              ,
+              Mammillaria columbiana
+              subsp.
+              yucatanensis
+              and
+              Parodia mammulosa
+              and compared with
+              Ferocactus wislizenii
+              whose spines do not perform as dew harvesters. Time-lapse snapshots of
+              C. cinerea
+              showed movement of dew droplets from spine tips to their base, even against gravity. Spines emanating from one of the areoles of
+              C. cinerea
+              were submerged in water laced with fluorescent nanoparticles and this particular areole with its spines and a small area of stem was removed and imaged. These images clearly showed that fluorescent water had moved into the stem of the plant. Lines of vascular bundles radiating inwards from the surface areoles (from where the spines emanate) to the core of the stem were detected using magnetic resonance imaging, with the exception of
+              F. wislizenii
+              that does not harvest dew on its spines. Spine microstructures were examined using SEM images and surface roughness measurements (
+              R
+              a
+              and
+              R
+              z
+              ) taken of the spines of
+              C. cinerea
+              . It was found that a roughness gradient created by tapered microgrooves existed that could potentially direct surface water from a spine tip to its base.
+            
+            This article is part of the themed issue ‘Bioinspired hierarchically structured surfaces for green science’.</dcterms:abstract>
+        <dc:date>2016-08-06</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0110</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:03:38</dcterms:dateSubmitted>
+        <bib:pages>20160110</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1364-503X,%201471-2962">
+        <prism:volume>374</prism:volume>
+        <dc:title>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</dc:title>
+        <dc:identifier>DOI 10.1098/rsta.2016.0110</dc:identifier>
+        <prism:number>2073</prism:number>
+        <dcterms:alternative>Phil. Trans. R. Soc. A.</dcterms:alternative>
+        <dc:identifier>ISSN 1364-503X, 1471-2962</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_45">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/45/Malik et al. - 2016 - Hierarchical structures of cactus spines that aid .pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://royalsocietypublishing.org/doi/pdf/10.1098/rsta.2016.0110</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:03:39</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_46">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>https://sci-hub.se/10.1098/rsta.2016.0110</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://sci-hub.se/10.1098/rsta.2016.0110</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:03:47</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+    <bib:Article rdf:about="https://onlinelibrary.wiley.com/doi/10.1002/admt.201900727">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2365-709X,%202365-709X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yi</foaf:surname>
+                        <foaf:givenName>Shengzhu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Jian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Zhipeng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Bin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ren</foaf:surname>
+                        <foaf:givenName>Lei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liang</foaf:surname>
+                        <foaf:givenName>Liang</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jiang</foaf:surname>
+                        <foaf:givenName>Lelun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_48"/>
+        <dc:title>Cactus‐Inspired Conical Spines with Oriented Microbarbs for Efficient Fog Harvesting</dc:title>
+        <dc:date>12/2019</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://onlinelibrary.wiley.com/doi/10.1002/admt.201900727</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:03:57</dcterms:dateSubmitted>
+        <bib:pages>1900727</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2365-709X,%202365-709X">
+        <prism:volume>4</prism:volume>
+        <dc:title>Advanced Materials Technologies</dc:title>
+        <dc:identifier>DOI 10.1002/admt.201900727</dc:identifier>
+        <prism:number>12</prism:number>
+        <dcterms:alternative>Adv. Mater. Technol.</dcterms:alternative>
+        <dc:identifier>ISSN 2365-709X, 2365-709X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_48">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>https://sci-hub.se/10.1002/admt.201900727</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://sci-hub.se/10.1002/admt.201900727</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-09-06 22:04:05</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+    </z:Attachment>
+</rdf:RDF>

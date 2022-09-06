@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Zotero Report</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9CgpkaXYgdGFibGUgewoJYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsKfQoKZGl2IHRhYmxlIHRkLCBkaXYgdGFibGUgdGggewoJYm9yZGVyOiAxcHggI2NjYyBzb2xpZDsKCWJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7Cgl3b3JkLWJyZWFrOiBicmVhay1hbGw7Cn0KCmRpdiB0YWJsZSB0ZCBwOmVtcHR5OjphZnRlciwgZGl2IHRhYmxlIHRoIHA6ZW1wdHk6OmFmdGVyIHsKCWNvbnRlbnQ6ICJcMDBhMCI7Cn0KCmRpdiB0YWJsZSB0ZCAqOmZpcnN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpmaXJzdC1jaGlsZCB7CgltYXJnaW4tdG9wOiAwOwp9CgpkaXYgdGFibGUgdGQgKjpsYXN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpsYXN0LWNoaWxkIHsKCW1hcmdpbi1ib3R0b206IDA7Cn0K">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_IRSXB39F" class="item journalArticle">
+			<h2>Water production from air using multi-shelves solar glass pyramid system</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>A.E. Kabeel</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>1/2007</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://linkinghub.elsevier.com/retrieve/pii/S0960148106000462">https://linkinghub.elsevier.com/retrieve/pii/S0960148106000462</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/6/2022, 5:02:41 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>32</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>157-172</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Renewable Energy</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1016/j.renene.2006.01.015">10.1016/j.renene.2006.01.015</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Renewable Energy</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>09601481</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/6/2022, 5:02:41 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/6/2022, 5:02:41 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_QCXGBRZ8">https://sci-hub.se/10.1016/j.renene.2006.01.015					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_4F77DPZP" class="item journalArticle">
+			<h2>Water Harvesting from Air: Current Passive Approaches and Outlook</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Xiaoyi Liu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Daniel Beysens</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Tarik Bourouina</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>In the context of global water scarcity, water vapor available
+ in air is a non-negligible supplementary fresh water resource. Current 
+and potential energetically passive procedures for improving atmospheric
+ water harvesting (AWH) capabilities involve different strategies and 
+dedicated materials, which are reviewed in this paper, from the 
+perspective of morphology and wettability optimization, substrate 
+cooling, and sorbent assistance. The advantages and limitations of 
+different AWH strategies are respectively discussed, as well as their 
+water harvesting performance. The various applications based on advanced
+ AWH technologies are also demonstrated. A prospective concept of 
+multifunctional water vapor harvesting panel based on promising cooling 
+material, inspired by silicon-based solar energy panels, is finally 
+proposed with a brief outlook of its advantages and challenges.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2022-05-02</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Water Harvesting from Air</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>ACS Publications</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1021/acsmaterialslett.1c00850">https://doi.org/10.1021/acsmaterialslett.1c00850</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/6/2022, 4:54:24 PM</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: American Chemical Society</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1003-1024</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>ACS Materials Letters</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1021/acsmaterialslett.1c00850">10.1021/acsmaterialslett.1c00850</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>5</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>ACS Materials Lett.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/6/2022, 4:54:24 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/6/2022, 4:59:03 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_GDY48RQT">https://pubs.acs.org/doi/full/10.1021/acsmaterialslett.1c00850					</li>
+					<li id="item_NJCTMFUE">Full Text PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_2SKXV27W" class="item journalArticle">
+			<h2>Solar-trackable super-wicking black metal panel for photothermal water sanitation</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Subhash C. Singh</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Mohamed ElKabbash</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Zilong Li</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Xiaohan Li</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Bhabesh Regmi</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Matthew Madsen</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Sohail A. Jalil</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Zhibing Zhan</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jihua Zhang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Chunlei Guo</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Abstract
+            Solar-based water sanitation is an environmentally friendly 
+process for obtaining clean water that requires efficient 
+light-to-heat-to-vapour generation. Solar-driven interfacial evaporation
+ has potential, but the inability to control interfacial evaporators for
+ solar tracking limits efficiency at large solar zenith angles and when 
+using optical concentration. Furthermore, clogging affects the 
+efficiency of the device. Here, we create a super-wicking and 
+super-light-absorbing (SWSA) aluminium surface for efficient solar-based
+ water sanitation. The measured evaporation rate exceeds that of an 
+ideal device operating at 100% efficiency, which we hypothesize resulted
+ from a reduced enthalpy of vaporization within the microcapillaries. 
+Limited solar absorber–water contact for water transport minimizes heat 
+losses to bulk water and maximizes heat localization at the SWSA 
+surface. The device can be mounted at any angle on a floating platform 
+to optimize incident solar irradiance and can readily be integrated with
+ commercial solar-thermal systems. With a design that is analogous to 
+bifacial photovoltaic solar panels, we show a 150% increase in 
+efficiency compared with a single-sided SWSA. Given the open capillary 
+channels, the device surface can be easily cleaned and reused. Using the
+ SWSA surface to purify contaminated water, we show a decrease in the 
+level of contaminants to well below the WHO and EPA standards for 
+drinkable water.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>11/2020</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://www.nature.com/articles/s41893-020-0566-x">http://www.nature.com/articles/s41893-020-0566-x</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/6/2022, 4:59:25 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>938-946</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Nature Sustainability</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/s41893-020-0566-x">10.1038/s41893-020-0566-x</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>11</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Nat Sustain</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2398-9629</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/6/2022, 4:59:26 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/6/2022, 4:59:26 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_B5IKSXK8">https://sci-hub.se/10.1038/s41893-020-0566-x					</li>
+					<li id="item_RQ8B7C89">Full Text					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_VN8LAZEP" class="item journalArticle">
+			<h2>Review of sustainable methods for atmospheric water harvesting</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Hasila Jarimi</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Richard Powell</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Saffa Riffat</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>The scope of this paper is to review different types of 
+sustainable water harvesting methods from the atmospheric fogs and dew. 
+In this paper, we report upon the water collection performance of 
+various fog collectors around the world. We also review technical 
+aspects of fog collector feasibility studies and the efficiency 
+improvements. Modern fog harvesting innovations are often bioinspired 
+technology. Fog harvesting technology is obviously limited by global fog
+ occurrence. In contrast, dew water harvester is available everywhere 
+but requires a cooled condensing surface. In this review, the dew water 
+collection systems is divided into three categories: i) dew water 
+harvesting using radiative cooling surface, ii) solar-regenerated 
+desiccant system and iii) active condensation technology. The key target
+ in all these approaches is the development of an atmospheric water 
+collector that can produce water regardless of the humidity level, 
+geographical location, low in cost and can be made using local 
+materials.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2020-05-18</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Silverchair</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1093/ijlct/ctz072">https://doi.org/10.1093/ijlct/ctz072</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/6/2022, 5:02:23 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>15</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>253-276</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>International Journal of Low-Carbon Technologies</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1093/ijlct/ctz072">10.1093/ijlct/ctz072</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>International Journal of Low-Carbon Technologies</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1748-1317</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/6/2022, 5:02:23 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/6/2022, 5:02:23 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_J2L35W2W">https://academic.oup.com/ijlct/article/15/2/253/5718410					</li>
+					<li id="item_8T3W2IVN">Full Text PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_6FDE8CTI" class="item journalArticle">
+			<h2>Progress and Expectation of Atmospheric Water Harvesting</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yaodong Tu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ruzhu Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yannan Zhang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jiayun Wang</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>08/2018</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://linkinghub.elsevier.com/retrieve/pii/S254243511830326X">https://linkinghub.elsevier.com/retrieve/pii/S254243511830326X</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/6/2022, 4:59:58 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1452-1475</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Joule</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1016/j.joule.2018.07.015">10.1016/j.joule.2018.07.015</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>8</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Joule</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>25424351</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/6/2022, 4:59:58 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/6/2022, 4:59:58 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_GB838SHN">https://sci-hub.se/10.1016/j.joule.2018.07.015					</li>
+					<li id="item_TD92HTKB">Full Text					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_ERU3XJUN" class="item journalArticle">
+			<h2>Passive radiative cooling below ambient air temperature under direct sunlight</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Aaswath P. Raman</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Marc Abou Anoma</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Linxiao Zhu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Eden Rephaeli</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Shanhui Fan</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>11/2014</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://www.nature.com/articles/nature13883">http://www.nature.com/articles/nature13883</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/6/2022, 4:57:39 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>515</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>540-544</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Nature</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/nature13883">10.1038/nature13883</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>7528</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Nature</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0028-0836, 1476-4687</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/6/2022, 4:57:39 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/6/2022, 4:57:39 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_SCG8WGXB">Link To Paper In SciHub					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_DCE5U7S7" class="item journalArticle">
+			<h2>Nature's moisture harvesters: a comparative review</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>F T Malik</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>R M Clement</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>D T Gethin</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>W Krawszik</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>A R Parker</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2014-03-20</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Nature's moisture harvesters</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://iopscience.iop.org/article/10.1088/1748-3182/9/3/031002">https://iopscience.iop.org/article/10.1088/1748-3182/9/3/031002</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/6/2022, 5:03:19 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>9</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>031002</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Bioinspiration &amp; Biomimetics</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1088/1748-3182/9/3/031002">10.1088/1748-3182/9/3/031002</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Bioinspir. Biomim.</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1748-3182, 1748-3190</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/6/2022, 5:03:19 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/6/2022, 5:03:19 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_LEKRJGR2">https://sci-hub.se/10.1088/1748-3182/9/3/031002					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_T49MLRSX" class="item journalArticle">
+			<h2>Hierarchical structures of cactus spines that aid in the directional movement of dew droplets</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>F. T. Malik</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>R. M. Clement</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>D. T. Gethin</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>M. Kiernan</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>T. Goral</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>P. Griffiths</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>D. Beynon</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>A. R. Parker</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Three species of cactus whose spines act as dew harvesters 
+were chosen for this study:
+              Copiapoa cinerea
+              var.
+              haseltoniana
+              ,
+              Mammillaria columbiana
+              subsp.
+              yucatanensis
+              and
+              Parodia mammulosa
+              and compared with
+              Ferocactus wislizenii
+              whose spines do not perform as dew harvesters. Time-lapse 
+snapshots of
+              C. cinerea
+              showed movement of dew droplets from spine tips to their 
+base, even against gravity. Spines emanating from one of the areoles of
+              C. cinerea
+              were submerged in water laced with fluorescent 
+nanoparticles and this particular areole with its spines and a small 
+area of stem was removed and imaged. These images clearly showed that 
+fluorescent water had moved into the stem of the plant. Lines of 
+vascular bundles radiating inwards from the surface areoles (from where 
+the spines emanate) to the core of the stem were detected using magnetic
+ resonance imaging, with the exception of
+              F. wislizenii
+              that does not harvest dew on its spines. Spine 
+microstructures were examined using SEM images and surface roughness 
+measurements (
+              R
+              a
+              and
+              R
+              z
+              ) taken of the spines of
+              C. cinerea
+              . It was found that a roughness gradient created by 
+tapered microgrooves existed that could potentially direct surface water
+ from a spine tip to its base.
+            
+            This article is part of the themed issue ‘Bioinspired 
+hierarchically structured surfaces for green science’.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2016-08-06</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0110">https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0110</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/6/2022, 5:03:38 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>374</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>20160110</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1098/rsta.2016.0110">10.1098/rsta.2016.0110</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>2073</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Phil. Trans. R. Soc. A.</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1364-503X, 1471-2962</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/6/2022, 5:03:38 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/6/2022, 5:03:38 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_QX4CH4AD">https://sci-hub.se/10.1098/rsta.2016.0110					</li>
+					<li id="item_DJN95R8I">Full Text					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_CNXQ7GKU" class="item journalArticle">
+			<h2>Harvesting Dew with Radiation Cooled Condensers to Supplement Drinking Water Supply in Semi-arid</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Girja Sharan</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>This paper describes the development of dew harvest systems 
+for use in semi-arid coastal region of north-west India, chronically 
+short of drinking water. These were developed to ameliorate drinking 
+water problem, especially of people living near the coast where 
+groundwater is of poor quality and surface sources scarce.  Although dew
+ is much smaller in magnitude (20-30 mm) than the rains (300 mm) it is a
+ more reliable source. Dew occurs over a season of seven months (October
+ to April), rain over four (June - September). Dew nights number ~ 100, 
+rainy days 15-20. There is much greater year to year variation in 
+rainfall than in the dew amount. A R&amp;D program of over four years 
+led to development of three types of systems - condenser-on-roof (CoR), 
+condenser-on-ground (CoG) and Roof-as-Condenser (RaC). The CoR, CoGs 
+employ condenser made of plastic film insulated on the underside. CoRs 
+are constructed over the roof of buildings, CoGs on open ground.  The 
+RaCs use metal roof of buildings itself as condenser. The CoR and CoGs 
+give higher output, require higher investment. The RaCs give lower 
+output; require only a small investment in collection and storage.  
+Examples of working installation are presented.  Rain and dew seasons in
+ the region are complementary. Although engineered specifically to 
+harvest dew, these also harvest rain, providing varying amounts of 
+potable water through the year. Benefits to the region, learning accrued
+ and partnerships created in the course of work are also briefly 
+discussed.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2011-05-08</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://ojs.library.queensu.ca/index.php/ijsle/article/view/3188">https://ojs.library.queensu.ca/index.php/ijsle/article/view/3188</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/6/2022, 5:00:30 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>6</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>130-150</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>International Journal for Service Learning in Engineering, Humanitarian Engineering and Social Entrepreneurship</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.24908/ijsle.v6i1.3188">10.24908/ijsle.v6i1.3188</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>IJSLE</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1555-9033</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/6/2022, 5:00:30 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/6/2022, 5:00:30 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_HW253RPC">https://sci-hub.se/10.24908/ijsle.v6i1.3188					</li>
+					<li id="item_HZBTFX6K">Full Text					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_KU5AAQZI" class="item journalArticle">
+			<h2>Cactus‐Inspired Conical Spines with Oriented Microbarbs for Efficient Fog Harvesting</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Shengzhu Yi</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jian Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Zhipeng Chen</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Bin Liu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Lei Ren</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Liang Liang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Lelun Jiang</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>12/2019</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://onlinelibrary.wiley.com/doi/10.1002/admt.201900727">https://onlinelibrary.wiley.com/doi/10.1002/admt.201900727</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/6/2022, 5:03:57 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1900727</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Advanced Materials Technologies</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1002/admt.201900727">10.1002/admt.201900727</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>12</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Adv. Mater. Technol.</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2365-709X, 2365-709X</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/6/2022, 5:03:57 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/6/2022, 5:03:57 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_K7GLZRCK">https://sci-hub.se/10.1002/admt.201900727					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_4UFPX4UP" class="item journalArticle">
+			<h2>Application of a solar desiccant/collector system for water recovery from atmospheric air</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>H.E Gad</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>A.M Hamed</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>I.I El-Sharkawy</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>4/2001</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://linkinghub.elsevier.com/retrieve/pii/S0960148100001129">https://linkinghub.elsevier.com/retrieve/pii/S0960148100001129</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/6/2022, 5:03:02 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>22</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>541-556</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Renewable Energy</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1016/S0960-1481(00)00112-9">10.1016/S0960-1481(00)00112-9</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Renewable Energy</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>09601481</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/6/2022, 5:03:02 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/6/2022, 5:03:02 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_U9UYANZK">https://sci-hub.se/10.1016/s0960-1481(00)00112-9					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_GB5BX74J" class="item journalArticle">
+			<h2>A change in landscape: Lessons learned from abandonment of ancient Wari agricultural terraces in Southern Peru</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ana C. Londoño</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Patrick Ryan Williams</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Megan L. Hart</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>11/2017</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>A change in landscape</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://linkinghub.elsevier.com/retrieve/pii/S0301479717300208">https://linkinghub.elsevier.com/retrieve/pii/S0301479717300208</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/6/2022, 4:58:25 PM</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>202</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>532-542</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Journal of Environmental Management</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1016/j.jenvman.2017.01.012">10.1016/j.jenvman.2017.01.012</a></td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Journal of Environmental Management</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>03014797</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/6/2022, 4:58:25 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/6/2022, 4:58:25 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_238G8YGG">https://sci-hub.se/10.1016/j.jenvman.2017.01.012					</li>
+				</ul>
+			</li>
+
+		</ul>
+	
+</body></html>
