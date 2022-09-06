@@ -9,3 +9,4 @@ I wanted to save people time from having to research all of these scientific art
 The folders are used for Zortero (https://www.zotero.org/), once installed you can do file>>import to bring in the files. 
 There is a simple HTML file included to quickly view the information. 
 
+For those new to github or you never have used this, press the green 'code' button and then press 'Download Zip' to download the files. 
