@@ -1,0 +1,208 @@
+CREATE
+LAST	P31	Q13442814
+LAST	Len	"Water Harvesting from Air: Current Passive Approaches and Outlook"
+LAST	Den	"journal article from 'ACS Materials Letters' published in 2022"
+LAST	P356	"10.1021/acsmaterialslett.1c00850"
+LAST	P953	"https://doi.org/10.1021/acsmaterialslett.1c00850"
+LAST	P478	"4"
+LAST	P433	"5"
+LAST	P304	"1003-1024"
+LAST	P1104	22
+LAST	P2093	"Xiaoyi Liu"	P1545	"1"
+LAST	P2093	"Daniel Beysens"	P1545	"2"
+LAST	P2093	"Tarik Bourouina"	P1545	"3"
+LAST	P577	+2022-05-02T00:00:00Z/11
+LAST	P1476	und:"Water Harvesting from Air: Current Passive Approaches and Outlook"
+CREATE
+LAST	P31	Q13442814
+LAST	Len	"Passive radiative cooling below ambient air temperature under direct sunlight"
+LAST	Den	"journal article from 'Nature' published in 2014"
+LAST	P356	"10.1038/nature13883"
+LAST	P953	"http://www.nature.com/articles/nature13883"
+LAST	P478	"515"
+LAST	P433	"7528"
+LAST	P304	"540-544"
+LAST	P1104	5
+LAST	P2093	"Aaswath P. Raman"	P1545	"1"
+LAST	P2093	"Marc Abou Anoma"	P1545	"2"
+LAST	P2093	"Linxiao Zhu"	P1545	"3"
+LAST	P2093	"Eden Rephaeli"	P1545	"4"
+LAST	P2093	"Shanhui Fan"	P1545	"5"
+LAST	P577	+2014-11-00T00:00:00Z/10
+LAST	P1476	en:"Passive radiative cooling below ambient air temperature under direct sunlight"
+LAST	P407	Q1860
+CREATE
+LAST	P31	Q13442814
+LAST	Len	"A change in landscape: Lessons learned from abandonment of ancient Wari agricultural terraces in Southern Peru"
+LAST	Den	"journal article from 'Journal of Environmental Management' published in 2017"
+LAST	P356	"10.1016/j.jenvman.2017.01.012"
+LAST	P953	"https://linkinghub.elsevier.com/retrieve/pii/S0301479717300208"
+LAST	P478	"202"
+LAST	P304	"532-542"
+LAST	P1104	11
+LAST	P2093	"Ana C. Londoño"	P1545	"1"
+LAST	P2093	"Patrick Ryan Williams"	P1545	"2"
+LAST	P2093	"Megan L. Hart"	P1545	"3"
+LAST	P577	+2017-11-00T00:00:00Z/10
+LAST	P1476	en:"A change in landscape: Lessons learned from abandonment of ancient Wari agricultural terraces in Southern Peru"
+LAST	P407	Q1860
+CREATE
+LAST	P31	Q13442814
+LAST	Len	"Solar-trackable super-wicking black metal panel for photothermal water sanitation"
+LAST	Den	"journal article from 'Nature Sustainability' published in 2020"
+LAST	P356	"10.1038/s41893-020-0566-x"
+LAST	P953	"http://www.nature.com/articles/s41893-020-0566-x"
+LAST	P478	"3"
+LAST	P433	"11"
+LAST	P304	"938-946"
+LAST	P1104	9
+LAST	P2093	"Subhash C. Singh"	P1545	"1"
+LAST	P2093	"Mohamed ElKabbash"	P1545	"2"
+LAST	P2093	"Zilong Li"	P1545	"3"
+LAST	P2093	"Xiaohan Li"	P1545	"4"
+LAST	P2093	"Bhabesh Regmi"	P1545	"5"
+LAST	P2093	"Matthew Madsen"	P1545	"6"
+LAST	P2093	"Sohail A. Jalil"	P1545	"7"
+LAST	P2093	"Zhibing Zhan"	P1545	"8"
+LAST	P2093	"Jihua Zhang"	P1545	"9"
+LAST	P2093	"Chunlei Guo"	P1545	"10"
+LAST	P577	+2020-11-00T00:00:00Z/10
+LAST	P1476	en:"Solar-trackable super-wicking black metal panel for photothermal water sanitation"
+LAST	P407	Q1860
+CREATE
+LAST	P31	Q13442814
+LAST	Len	"Progress and Expectation of Atmospheric Water Harvesting"
+LAST	Den	"journal article from 'Joule' published in 2018"
+LAST	P356	"10.1016/j.joule.2018.07.015"
+LAST	P953	"https://linkinghub.elsevier.com/retrieve/pii/S254243511830326X"
+LAST	P478	"2"
+LAST	P433	"8"
+LAST	P304	"1452-1475"
+LAST	P1104	24
+LAST	P2093	"Yaodong Tu"	P1545	"1"
+LAST	P2093	"Ruzhu Wang"	P1545	"2"
+LAST	P2093	"Yannan Zhang"	P1545	"3"
+LAST	P2093	"Jiayun Wang"	P1545	"4"
+LAST	P577	+2018-08-00T00:00:00Z/10
+LAST	P1476	en:"Progress and Expectation of Atmospheric Water Harvesting"
+LAST	P407	Q1860
+CREATE
+LAST	P31	Q13442814
+LAST	Len	"Harvesting Dew with Radiation Cooled Condensers to Supplement Drinking Water Supply in Semi-arid"
+LAST	Den	"journal article from 'International Journal for Service Learning in Engineering, Humanitarian Engineering and Social Entrepreneurship' published in 2011"
+LAST	P356	"10.24908/ijsle.v6i1.3188"
+LAST	P953	"https://ojs.library.queensu.ca/index.php/ijsle/article/view/3188"
+LAST	P478	"6"
+LAST	P433	"1"
+LAST	P304	"130-150"
+LAST	P1104	21
+LAST	P2093	"Girja Sharan"	P1545	"1"
+LAST	P577	+2011-05-08T00:00:00Z/11
+LAST	P1476	und:"Harvesting Dew with Radiation Cooled Condensers to Supplement Drinking Water Supply in Semi-arid"
+CREATE
+LAST	P31	Q13442814
+LAST	Len	"Review of sustainable methods for atmospheric water harvesting"
+LAST	Den	"journal article from 'International Journal of Low-Carbon Technologies' published in 2020"
+LAST	P356	"10.1093/ijlct/ctz072"
+LAST	P953	"https://doi.org/10.1093/ijlct/ctz072"
+LAST	P478	"15"
+LAST	P433	"2"
+LAST	P304	"253-276"
+LAST	P1104	24
+LAST	P2093	"Hasila Jarimi"	P1545	"1"
+LAST	P2093	"Richard Powell"	P1545	"2"
+LAST	P2093	"Saffa Riffat"	P1545	"3"
+LAST	P577	+2020-05-18T00:00:00Z/11
+LAST	P1476	und:"Review of sustainable methods for atmospheric water harvesting"
+CREATE
+LAST	P31	Q13442814
+LAST	Len	"Water production from air using multi-shelves solar glass pyramid system"
+LAST	Den	"journal article from 'Renewable Energy' published in 2007"
+LAST	P356	"10.1016/j.renene.2006.01.015"
+LAST	P953	"https://linkinghub.elsevier.com/retrieve/pii/S0960148106000462"
+LAST	P478	"32"
+LAST	P433	"1"
+LAST	P304	"157-172"
+LAST	P1104	16
+LAST	P2093	"A.E. Kabeel"	P1545	"1"
+LAST	P577	+2007-01-00T00:00:00Z/10
+LAST	P1476	en:"Water production from air using multi-shelves solar glass pyramid system"
+LAST	P407	Q1860
+CREATE
+LAST	P31	Q13442814
+LAST	Len	"Application of a solar desiccant/collector system for water recovery from atmospheric air"
+LAST	Den	"journal article from 'Renewable Energy' published in 2001"
+LAST	P356	"10.1016/S0960-1481(00)00112-9"
+LAST	P953	"https://linkinghub.elsevier.com/retrieve/pii/S0960148100001129"
+LAST	P478	"22"
+LAST	P433	"4"
+LAST	P304	"541-556"
+LAST	P1104	16
+LAST	P2093	"H.E Gad"	P1545	"1"
+LAST	P2093	"A.M Hamed"	P1545	"2"
+LAST	P2093	"I.I El-Sharkawy"	P1545	"3"
+LAST	P577	+2001-04-00T00:00:00Z/10
+LAST	P1476	en:"Application of a solar desiccant/collector system for water recovery from atmospheric air"
+LAST	P407	Q1860
+CREATE
+LAST	P31	Q13442814
+LAST	Len	"Nature's moisture harvesters: a comparative review"
+LAST	Den	"journal article from 'Bioinspiration & Biomimetics' published in 2014"
+LAST	P356	"10.1088/1748-3182/9/3/031002"
+LAST	P953	"https://iopscience.iop.org/article/10.1088/1748-3182/9/3/031002"
+LAST	P478	"9"
+LAST	P433	"3"
+LAST	P304	"031002"
+LAST	P2093	"F T Malik"	P1545	"1"
+LAST	P2093	"R M Clement"	P1545	"2"
+LAST	P2093	"D T Gethin"	P1545	"3"
+LAST	P2093	"W Krawszik"	P1545	"4"
+LAST	P2093	"A R Parker"	P1545	"5"
+LAST	P577	+2014-03-20T00:00:00Z/11
+LAST	P1476	und:"Nature's moisture harvesters: a comparative review"
+CREATE
+LAST	P31	Q13442814
+LAST	Len	"Hierarchical structures of cactus spines that aid in the directional movement of dew droplets"
+LAST	Den	"journal article from 'Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences' published in 2016"
+LAST	P356	"10.1098/rsta.2016.0110"
+LAST	P953	"https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0110"
+LAST	P478	"374"
+LAST	P433	"2073"
+LAST	P304	"20160110"
+LAST	P2093	"F. T. Malik"	P1545	"1"
+LAST	P2093	"R. M. Clement"	P1545	"2"
+LAST	P2093	"D. T. Gethin"	P1545	"3"
+LAST	P2093	"M. Kiernan"	P1545	"4"
+LAST	P2093	"T. Goral"	P1545	"5"
+LAST	P2093	"P. Griffiths"	P1545	"6"
+LAST	P2093	"D. Beynon"	P1545	"7"
+LAST	P2093	"A. R. Parker"	P1545	"8"
+LAST	P577	+2016-08-06T00:00:00Z/11
+LAST	P1476	en:"Hierarchical structures of cactus spines that aid in the directional movement of dew droplets"
+LAST	P407	Q1860
+CREATE
+LAST	P31	Q13442814
+LAST	Len	"Cactus‐Inspired Conical Spines with Oriented Microbarbs for Efficient Fog Harvesting"
+LAST	Den	"journal article from 'Advanced Materials Technologies' published in 2019"
+LAST	P356	"10.1002/admt.201900727"
+LAST	P953	"https://onlinelibrary.wiley.com/doi/10.1002/admt.201900727"
+LAST	P478	"4"
+LAST	P433	"12"
+LAST	P304	"1900727"
+LAST	P2093	"Shengzhu Yi"	P1545	"1"
+LAST	P2093	"Jian Wang"	P1545	"2"
+LAST	P2093	"Zhipeng Chen"	P1545	"3"
+LAST	P2093	"Bin Liu"	P1545	"4"
+LAST	P2093	"Lei Ren"	P1545	"5"
+LAST	P2093	"Liang Liang"	P1545	"6"
+LAST	P2093	"Lelun Jiang"	P1545	"7"
+LAST	P577	+2019-12-00T00:00:00Z/10
+LAST	P1476	en:"Cactus‐Inspired Conical Spines with Oriented Microbarbs for Efficient Fog Harvesting"
+LAST	P407	Q1860
+CREATE
+LAST	P31	Q36774
+LAST	Len	"Book bans are on the rise. What are the most banned books and why?"
+LAST	Den	"webpage"
+LAST	P953	"https://www.usatoday.com/story/entertainment/books/2022/06/29/banned-books-explained/7772046001/"
+LAST	P2093	"Barbara VanDenburgh"	P1545	"1"
+LAST	P1476	und:"Book bans are on the rise. What are the most banned books and why?"
